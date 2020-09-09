@@ -1,0 +1,94 @@
+body {
+  background: steelblue;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+.login-wrapper {
+  min-height: 200px;
+  min-width: 200px;
+  background: #fff;
+  padding: 20px;
+  border-top: 5px solid lightblue;
+  color: #000;
+}
+
+.login-input input {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.login-input button {
+  background: lightblue;
+  display: block;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-input button:hover {
+  background: steelblue;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 40px auto;
+  width: 300px;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.user-info {
+  width: 10vw;
+  border: 1px solid #fff;
+  padding: 5rem;
+  text-align: start;
+}
+
+button,
+.button {
+  width: 6rem;
+  background-color: #fff;
+  color: steelblue;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+.button > a {
+  color: steelblue;
+}
